@@ -63,7 +63,7 @@ namespace RobbieWagnerGames.Movement
                 Instance = this;
             }
 
-            GameManager.Instance.OnGameModeChanged += CheckGameMode;
+            //GameManager.Instance.OnGameModeChanged += CheckGameMode;
 
             currentWalkSpeed = defaultWalkSpeed;
             movementVector = Vector3.zero;
