@@ -1,0 +1,6 @@
+[submodule "UntitledStoryGame/Assets/restricted"]
+	path = UntitledStoryGame/Assets/restricted
+	url = https://github.com/RobbieWagner/UntitledStoryGameRestricted.git
+[submodule "UntitledStoryGameFMOD/Assets/restricted"]
+	path = UntitledStoryGameFMOD/Assets/restricted
+	url = https://github.com/RobbieWagner/UntitledStoryGameFMOD.git
