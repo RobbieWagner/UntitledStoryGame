@@ -14,6 +14,7 @@ namespace RobbieWagnerGames.Movement
     public class PlayerMovement : MonoBehaviour
     {
         [HideInInspector] public bool moving = false;
+        [HideInInspector] public bool canMove = true;
 
         private Vector3 movementVector;
         [SerializeField] private float defaultWalkSpeed = 3f;

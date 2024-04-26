@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace RobbieWagnerGames.Common
 {
-    public class JsonDataService : IDataService
+    public class JsonDataService : MonoBehaviour, IDataService
     {
         public static JsonDataService Instance {get; private set;}
         public JsonDataService()
